@@ -1,0 +1,15 @@
+/* src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: custom scrollbar for the pong container */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #222;
+}
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 6px;
+}
